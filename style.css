@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lobster&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar
+{
+background-color: rgb(211, 204, 204);
+width: 230px;
+height: 100vh;
+
+}
+.sidebar nav {
+    padding: 25px;
+    font-size: 20px;
+}
+
+.sidebar nav li {
+    list-style-type:none;
+    font-size: 30px;
+    padding: 25px ;
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color:rgb(8, 7, 7);
+}
+.main 
+{
+  /*  background-color: aqua; */
+    width: 85vw;
+    font-family: 'Dancing Script', cursive;
+}
+.container{
+    display: flex;
+}
+
+.info{
+    /*background-color: rgb(118, 145, 198); */
+    height: 55vh;
+    width: 65vw;
+    margin:auto;
+    margin-top: 75px;
+    display:flex ;
+    justify-content: space-around;
+    font-family: 'Caveat', cursive;
+}
+
+.hello{
+    font-size: 35px;
+
+}
+.contact  img{
+    height: 30vh;
+    width: 82vw;
+}
+.born{
+    font-size: 30px;
+    
+}
+.conhead {
+    font-size: 25px;
+}
+.complaint{
+    padding-left: 40px;
+    height: 50vh;
+    width: 90vh;
+    font-size: 18px;
+    padding: 1pt;
+    padding-left: 150pt;
+    font-family:  open_sanssemibold ; 
+    font-style: italic;
+    margin: 12px;
+}
+.bttn button{
+    padding: 9px 13px;
+    height: 45vh;
+    padding: 30pt;
+    font-size: 20px;
+    border-radius: 10px; 
+    background-color:white;
+    padding-left: 34pt;
+    border-color: aqua;
+margin: 60px;
+}
+.bttn img{
+    width: 30px;
+    height: 30px;
+}
+.name{
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;   
+}
+.subhead{
+    font-size: 18px;
+     color: blue ;
+    font-weight: bold;
+    font-family: open_sanssemibold ; 
+    padding-left: 12pt;  
+
+}
+.para{
+    font-size: 28px;
+    padding: 5pt;
+    padding-left: 150pt;
+    font-family:  open_sanssemibold ; 
+    font-style: italic;
+}
+/* .para img{
+    height: 15vh;
+} */
+.complaint textarea{
+    border-radius: 1pc;
+}
+.complaint input{
+    padding: 5pt;
+    width: 250px;
+    border-radius: 20pc;
+    /* height: 07px; */
+    
+}
+.subabout{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Courier', cursive; 
+    padding-left: 90pt;  
+
+}
+.about{
+    font-size: 31px;
+    
+}
+.buttons{
+    margin-top: 35px;
+}
+.buttons button{
+    padding: 9px 13px;
+    border-radius: 15px;
+    color: white;
+    background-color:rgb(129, 129, 177);
+    font-size: 15px;
+    margin : 0px 3px;
+    cursor: pointer;
+
+}
+.buttons button:hover{
+    background-color: white;
+    color:rgb(129, 129, 177);
+
+}
+.devinfo{
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.devpic img{
+    height: 70vh;
+    position: relative;
+}
+.heading img{
+    height: 10vh;
+    position:absolute;
+    padding-left: 70pt;
+
+}
+.conhead img{
+    height: 16vh;
+    width: 180vh;
+}
+.new img{
+
+    width: 180vh;
+    height: 22vh;
+}
+.abc img{
+    height: 08vh;
+    position:absolute;
+    padding-left: 780px;
+
+}
+
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.close{
+    margin-left: 138px;
+}
+
+@media (max-width:683px){
+ *{ 
+     /*background-color: turquoise;*/
+ }
+.sidebar{
+    transform: translate(-443px, 0px);
+    position: absolute;
+ 
+}
+    
+}
